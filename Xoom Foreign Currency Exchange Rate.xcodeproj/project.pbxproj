@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A0F69BD1ECFCF9E00FB6505 /* XoomForeignExchangeRateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F69BC1ECFCF9E00FB6505 /* XoomForeignExchangeRateService.swift */; };
+		6A0F69BE1ECFCF9E00FB6505 /* XoomForeignExchangeRateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F69BC1ECFCF9E00FB6505 /* XoomForeignExchangeRateService.swift */; };
+		6A0F69BF1ECFCF9E00FB6505 /* XoomForeignExchangeRateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F69BC1ECFCF9E00FB6505 /* XoomForeignExchangeRateService.swift */; };
+		6A2EAB251ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2EAB201ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateInteractor.swift */; };
+		6A2EAB261ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2EAB201ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateInteractor.swift */; };
+		6A2EAB271ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2EAB201ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateInteractor.swift */; };
+		6A2EAB281ECEA5C20002E71F /* XoomForeignExchangeCurrencyRatePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2EAB211ECEA5C20002E71F /* XoomForeignExchangeCurrencyRatePresenter.swift */; };
+		6A2EAB291ECEA5C20002E71F /* XoomForeignExchangeCurrencyRatePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2EAB211ECEA5C20002E71F /* XoomForeignExchangeCurrencyRatePresenter.swift */; };
+		6A2EAB2A1ECEA5C20002E71F /* XoomForeignExchangeCurrencyRatePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2EAB211ECEA5C20002E71F /* XoomForeignExchangeCurrencyRatePresenter.swift */; };
+		6A2EAB2B1ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2EAB221ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateProtocols.swift */; };
+		6A2EAB2C1ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2EAB221ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateProtocols.swift */; };
+		6A2EAB2D1ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2EAB221ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateProtocols.swift */; };
+		6A2EAB2E1ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2EAB231ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateView.swift */; };
+		6A2EAB2F1ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2EAB231ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateView.swift */; };
+		6A2EAB301ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2EAB231ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateView.swift */; };
+		6A2EAB311ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2EAB241ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateWireframe.swift */; };
+		6A2EAB321ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2EAB241ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateWireframe.swift */; };
+		6A2EAB331ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2EAB241ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateWireframe.swift */; };
+		6A7130761ECD495000FF404E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7130751ECD495000FF404E /* AppDelegate.swift */; };
+		6A71307B1ECD495000FF404E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7130791ECD495000FF404E /* Main.storyboard */; };
+		6A71307D1ECD495000FF404E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A71307C1ECD495000FF404E /* Assets.xcassets */; };
+		6A7130801ECD495000FF404E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A71307E1ECD495000FF404E /* LaunchScreen.storyboard */; };
+		6A71308B1ECD495000FF404E /* Xoom_Foreign_Currency_Exchange_Rate_Presenter_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A71308A1ECD495000FF404E /* Xoom_Foreign_Currency_Exchange_Rate_Presenter_Tests.swift */; };
+		6A7130961ECD495000FF404E /* Xoom_Foreign_Currency_Exchange_RateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7130951ECD495000FF404E /* Xoom_Foreign_Currency_Exchange_RateUITests.swift */; };
+		6A7130A41ECD4A0D00FF404E /* Countries.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A7130A31ECD4A0D00FF404E /* Countries.plist */; };
+		6AF9B5CE1ED00EAD006C8FC4 /* ForeignExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B5CD1ED00EAD006C8FC4 /* ForeignExchangeRate.swift */; };
+		6AF9B5CF1ED00EAD006C8FC4 /* ForeignExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B5CD1ED00EAD006C8FC4 /* ForeignExchangeRate.swift */; };
+		6AF9B5D01ED00EAD006C8FC4 /* ForeignExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B5CD1ED00EAD006C8FC4 /* ForeignExchangeRate.swift */; };
+		6AF9B5D21ED0C69A006C8FC4 /* ForeignExchangeRateDetailsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B5D11ED0C69A006C8FC4 /* ForeignExchangeRateDetailsObject.swift */; };
+		6AF9B5D31ED0C69A006C8FC4 /* ForeignExchangeRateDetailsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B5D11ED0C69A006C8FC4 /* ForeignExchangeRateDetailsObject.swift */; };
+		6AF9B5D41ED0C69A006C8FC4 /* ForeignExchangeRateDetailsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B5D11ED0C69A006C8FC4 /* ForeignExchangeRateDetailsObject.swift */; };
+		6AF9B66E1ED18CF5006C8FC4 /* Xoom_Foreign_Currency_Exchange_Rate_Interactor_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B66D1ED18CF5006C8FC4 /* Xoom_Foreign_Currency_Exchange_Rate_Interactor_Tests.swift */; };
+		6AF9B6701ED23005006C8FC4 /* Xoom_Foreign_Currency_Exchange_Rate_View_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B66F1ED23005006C8FC4 /* Xoom_Foreign_Currency_Exchange_Rate_View_Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A7130871ECD495000FF404E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A71306A1ECD494F00FF404E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A7130711ECD494F00FF404E;
+			remoteInfo = "Xoom Foreign Currency Exchange Rate";
+		};
+		6A7130921ECD495000FF404E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A71306A1ECD494F00FF404E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A7130711ECD494F00FF404E;
+			remoteInfo = "Xoom Foreign Currency Exchange Rate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A0F69BC1ECFCF9E00FB6505 /* XoomForeignExchangeRateService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XoomForeignExchangeRateService.swift; sourceTree = "<group>"; };
+		6A2EAB201ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XoomForeignExchangeCurrencyRateInteractor.swift; sourceTree = "<group>"; };
+		6A2EAB211ECEA5C20002E71F /* XoomForeignExchangeCurrencyRatePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XoomForeignExchangeCurrencyRatePresenter.swift; sourceTree = "<group>"; };
+		6A2EAB221ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XoomForeignExchangeCurrencyRateProtocols.swift; sourceTree = "<group>"; };
+		6A2EAB231ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XoomForeignExchangeCurrencyRateView.swift; sourceTree = "<group>"; };
+		6A2EAB241ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XoomForeignExchangeCurrencyRateWireframe.swift; sourceTree = "<group>"; };
+		6A7130721ECD495000FF404E /* Xoom Foreign Currency Exchange Rate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xoom Foreign Currency Exchange Rate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7130751ECD495000FF404E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A71307A1ECD495000FF404E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A71307C1ECD495000FF404E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A71307F1ECD495000FF404E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A7130811ECD495000FF404E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A7130861ECD495000FF404E /* Xoom Foreign Currency Exchange RateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xoom Foreign Currency Exchange RateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A71308A1ECD495000FF404E /* Xoom_Foreign_Currency_Exchange_Rate_Presenter_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xoom_Foreign_Currency_Exchange_Rate_Presenter_Tests.swift; sourceTree = "<group>"; };
+		6A71308C1ECD495000FF404E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A7130911ECD495000FF404E /* Xoom Foreign Currency Exchange RateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xoom Foreign Currency Exchange RateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7130951ECD495000FF404E /* Xoom_Foreign_Currency_Exchange_RateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xoom_Foreign_Currency_Exchange_RateUITests.swift; sourceTree = "<group>"; };
+		6A7130971ECD495000FF404E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A7130A31ECD4A0D00FF404E /* Countries.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Countries.plist; sourceTree = "<group>"; };
+		6AF9B5CD1ED00EAD006C8FC4 /* ForeignExchangeRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForeignExchangeRate.swift; sourceTree = "<group>"; };
+		6AF9B5D11ED0C69A006C8FC4 /* ForeignExchangeRateDetailsObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForeignExchangeRateDetailsObject.swift; sourceTree = "<group>"; };
+		6AF9B66D1ED18CF5006C8FC4 /* Xoom_Foreign_Currency_Exchange_Rate_Interactor_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Xoom_Foreign_Currency_Exchange_Rate_Interactor_Tests.swift; sourceTree = "<group>"; };
+		6AF9B66F1ED23005006C8FC4 /* Xoom_Foreign_Currency_Exchange_Rate_View_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Xoom_Foreign_Currency_Exchange_Rate_View_Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A71306F1ECD494F00FF404E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7130831ECD495000FF404E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A71308E1ECD495000FF404E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A7130691ECD494F00FF404E = {
+			isa = PBXGroup;
+			children = (
+				6A7130741ECD495000FF404E /* Xoom Foreign Currency Exchange Rate */,
+				6AF9B5CC1ECFE85C006C8FC4 /* Xoom Foreign Currency Exchange Rate */,
+				6A7130891ECD495000FF404E /* Xoom Foreign Currency Exchange RateTests */,
+				6A7130941ECD495000FF404E /* Xoom Foreign Currency Exchange RateUITests */,
+				6A7130731ECD495000FF404E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A7130731ECD495000FF404E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A7130721ECD495000FF404E /* Xoom Foreign Currency Exchange Rate.app */,
+				6A7130861ECD495000FF404E /* Xoom Foreign Currency Exchange RateTests.xctest */,
+				6A7130911ECD495000FF404E /* Xoom Foreign Currency Exchange RateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A7130741ECD495000FF404E /* Xoom Foreign Currency Exchange Rate */ = {
+			isa = PBXGroup;
+			children = (
+				6A71307C1ECD495000FF404E /* Assets.xcassets */,
+				6A7130811ECD495000FF404E /* Info.plist */,
+			);
+			path = "Xoom Foreign Currency Exchange Rate";
+			sourceTree = "<group>";
+		};
+		6A7130891ECD495000FF404E /* Xoom Foreign Currency Exchange RateTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A71308A1ECD495000FF404E /* Xoom_Foreign_Currency_Exchange_Rate_Presenter_Tests.swift */,
+				6AF9B66D1ED18CF5006C8FC4 /* Xoom_Foreign_Currency_Exchange_Rate_Interactor_Tests.swift */,
+				6AF9B66F1ED23005006C8FC4 /* Xoom_Foreign_Currency_Exchange_Rate_View_Tests.swift */,
+				6A71308C1ECD495000FF404E /* Info.plist */,
+			);
+			path = "Xoom Foreign Currency Exchange RateTests";
+			sourceTree = "<group>";
+		};
+		6A7130941ECD495000FF404E /* Xoom Foreign Currency Exchange RateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A7130951ECD495000FF404E /* Xoom_Foreign_Currency_Exchange_RateUITests.swift */,
+				6A7130971ECD495000FF404E /* Info.plist */,
+			);
+			path = "Xoom Foreign Currency Exchange RateUITests";
+			sourceTree = "<group>";
+		};
+		6AF9B5CC1ECFE85C006C8FC4 /* Xoom Foreign Currency Exchange Rate */ = {
+			isa = PBXGroup;
+			children = (
+				6A7130751ECD495000FF404E /* AppDelegate.swift */,
+				6A0F69BC1ECFCF9E00FB6505 /* XoomForeignExchangeRateService.swift */,
+				6AF9B6731ED2419A006C8FC4 /* Storyboards */,
+				6AF9B6751ED25A8E006C8FC4 /* List Of Countries */,
+				6AF9B6741ED25A7E006C8FC4 /* Foreign Exchange Rate Details */,
+			);
+			path = "Xoom Foreign Currency Exchange Rate";
+			sourceTree = "<group>";
+		};
+		6AF9B6731ED2419A006C8FC4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6A7130A31ECD4A0D00FF404E /* Countries.plist */,
+				6A71307E1ECD495000FF404E /* LaunchScreen.storyboard */,
+				6A7130791ECD495000FF404E /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		6AF9B6741ED25A7E006C8FC4 /* Foreign Exchange Rate Details */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9B5CD1ED00EAD006C8FC4 /* ForeignExchangeRate.swift */,
+				6AF9B5D11ED0C69A006C8FC4 /* ForeignExchangeRateDetailsObject.swift */,
+			);
+			name = "Foreign Exchange Rate Details";
+			sourceTree = "<group>";
+		};
+		6AF9B6751ED25A8E006C8FC4 /* List Of Countries */ = {
+			isa = PBXGroup;
+			children = (
+				6A2EAB201ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateInteractor.swift */,
+				6A2EAB211ECEA5C20002E71F /* XoomForeignExchangeCurrencyRatePresenter.swift */,
+				6A2EAB221ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateProtocols.swift */,
+				6A2EAB231ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateView.swift */,
+				6A2EAB241ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateWireframe.swift */,
+			);
+			name = "List Of Countries";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A7130711ECD494F00FF404E /* Xoom Foreign Currency Exchange Rate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A71309A1ECD495000FF404E /* Build configuration list for PBXNativeTarget "Xoom Foreign Currency Exchange Rate" */;
+			buildPhases = (
+				6A71306E1ECD494F00FF404E /* Sources */,
+				6A71306F1ECD494F00FF404E /* Frameworks */,
+				6A7130701ECD494F00FF404E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Xoom Foreign Currency Exchange Rate";
+			productName = "Xoom Foreign Currency Exchange Rate";
+			productReference = 6A7130721ECD495000FF404E /* Xoom Foreign Currency Exchange Rate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A7130851ECD495000FF404E /* Xoom Foreign Currency Exchange RateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A71309D1ECD495000FF404E /* Build configuration list for PBXNativeTarget "Xoom Foreign Currency Exchange RateTests" */;
+			buildPhases = (
+				6A7130821ECD495000FF404E /* Sources */,
+				6A7130831ECD495000FF404E /* Frameworks */,
+				6A7130841ECD495000FF404E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A7130881ECD495000FF404E /* PBXTargetDependency */,
+			);
+			name = "Xoom Foreign Currency Exchange RateTests";
+			productName = "Xoom Foreign Currency Exchange RateTests";
+			productReference = 6A7130861ECD495000FF404E /* Xoom Foreign Currency Exchange RateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A7130901ECD495000FF404E /* Xoom Foreign Currency Exchange RateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A7130A01ECD495000FF404E /* Build configuration list for PBXNativeTarget "Xoom Foreign Currency Exchange RateUITests" */;
+			buildPhases = (
+				6A71308D1ECD495000FF404E /* Sources */,
+				6A71308E1ECD495000FF404E /* Frameworks */,
+				6A71308F1ECD495000FF404E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A7130931ECD495000FF404E /* PBXTargetDependency */,
+			);
+			name = "Xoom Foreign Currency Exchange RateUITests";
+			productName = "Xoom Foreign Currency Exchange RateUITests";
+			productReference = 6A7130911ECD495000FF404E /* Xoom Foreign Currency Exchange RateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A71306A1ECD494F00FF404E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Rohit;
+				TargetAttributes = {
+					6A7130711ECD494F00FF404E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 567V7S9DW6;
+						ProvisioningStyle = Automatic;
+					};
+					6A7130851ECD495000FF404E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 567V7S9DW6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A7130711ECD494F00FF404E;
+					};
+					6A7130901ECD495000FF404E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 567V7S9DW6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A7130711ECD494F00FF404E;
+					};
+				};
+			};
+			buildConfigurationList = 6A71306D1ECD494F00FF404E /* Build configuration list for PBXProject "Xoom Foreign Currency Exchange Rate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A7130691ECD494F00FF404E;
+			productRefGroup = 6A7130731ECD495000FF404E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A7130711ECD494F00FF404E /* Xoom Foreign Currency Exchange Rate */,
+				6A7130851ECD495000FF404E /* Xoom Foreign Currency Exchange RateTests */,
+				6A7130901ECD495000FF404E /* Xoom Foreign Currency Exchange RateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A7130701ECD494F00FF404E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7130801ECD495000FF404E /* LaunchScreen.storyboard in Resources */,
+				6A7130A41ECD4A0D00FF404E /* Countries.plist in Resources */,
+				6A71307D1ECD495000FF404E /* Assets.xcassets in Resources */,
+				6A71307B1ECD495000FF404E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7130841ECD495000FF404E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A71308F1ECD495000FF404E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A71306E1ECD494F00FF404E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2EAB281ECEA5C20002E71F /* XoomForeignExchangeCurrencyRatePresenter.swift in Sources */,
+				6AF9B5D21ED0C69A006C8FC4 /* ForeignExchangeRateDetailsObject.swift in Sources */,
+				6A2EAB2B1ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateProtocols.swift in Sources */,
+				6A2EAB311ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateWireframe.swift in Sources */,
+				6A2EAB2E1ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateView.swift in Sources */,
+				6AF9B5CE1ED00EAD006C8FC4 /* ForeignExchangeRate.swift in Sources */,
+				6A2EAB251ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateInteractor.swift in Sources */,
+				6A7130761ECD495000FF404E /* AppDelegate.swift in Sources */,
+				6A0F69BD1ECFCF9E00FB6505 /* XoomForeignExchangeRateService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7130821ECD495000FF404E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2EAB2F1ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateView.swift in Sources */,
+				6AF9B5D31ED0C69A006C8FC4 /* ForeignExchangeRateDetailsObject.swift in Sources */,
+				6A2EAB261ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateInteractor.swift in Sources */,
+				6A2EAB2C1ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateProtocols.swift in Sources */,
+				6A2EAB291ECEA5C20002E71F /* XoomForeignExchangeCurrencyRatePresenter.swift in Sources */,
+				6AF9B6701ED23005006C8FC4 /* Xoom_Foreign_Currency_Exchange_Rate_View_Tests.swift in Sources */,
+				6AF9B66E1ED18CF5006C8FC4 /* Xoom_Foreign_Currency_Exchange_Rate_Interactor_Tests.swift in Sources */,
+				6AF9B5CF1ED00EAD006C8FC4 /* ForeignExchangeRate.swift in Sources */,
+				6A2EAB321ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateWireframe.swift in Sources */,
+				6A71308B1ECD495000FF404E /* Xoom_Foreign_Currency_Exchange_Rate_Presenter_Tests.swift in Sources */,
+				6A0F69BE1ECFCF9E00FB6505 /* XoomForeignExchangeRateService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A71308D1ECD495000FF404E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2EAB301ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateView.swift in Sources */,
+				6AF9B5D41ED0C69A006C8FC4 /* ForeignExchangeRateDetailsObject.swift in Sources */,
+				6A2EAB271ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateInteractor.swift in Sources */,
+				6A2EAB2D1ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateProtocols.swift in Sources */,
+				6A2EAB2A1ECEA5C20002E71F /* XoomForeignExchangeCurrencyRatePresenter.swift in Sources */,
+				6AF9B5D01ED00EAD006C8FC4 /* ForeignExchangeRate.swift in Sources */,
+				6A2EAB331ECEA5C20002E71F /* XoomForeignExchangeCurrencyRateWireframe.swift in Sources */,
+				6A7130961ECD495000FF404E /* Xoom_Foreign_Currency_Exchange_RateUITests.swift in Sources */,
+				6A0F69BF1ECFCF9E00FB6505 /* XoomForeignExchangeRateService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A7130881ECD495000FF404E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A7130711ECD494F00FF404E /* Xoom Foreign Currency Exchange Rate */;
+			targetProxy = 6A7130871ECD495000FF404E /* PBXContainerItemProxy */;
+		};
+		6A7130931ECD495000FF404E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A7130711ECD494F00FF404E /* Xoom Foreign Currency Exchange Rate */;
+			targetProxy = 6A7130921ECD495000FF404E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A7130791ECD495000FF404E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A71307A1ECD495000FF404E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A71307E1ECD495000FF404E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A71307F1ECD495000FF404E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A7130981ECD495000FF404E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A7130991ECD495000FF404E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A71309B1ECD495000FF404E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 567V7S9DW6;
+				INFOPLIST_FILE = "Xoom Foreign Currency Exchange Rate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohit.Xoom-Foreign-Currency-Exchange-Rate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6A71309C1ECD495000FF404E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 567V7S9DW6;
+				INFOPLIST_FILE = "Xoom Foreign Currency Exchange Rate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohit.Xoom-Foreign-Currency-Exchange-Rate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6A71309E1ECD495000FF404E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 567V7S9DW6;
+				INFOPLIST_FILE = "Xoom Foreign Currency Exchange RateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohit.Xoom-Foreign-Currency-Exchange-RateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xoom Foreign Currency Exchange Rate.app/Xoom Foreign Currency Exchange Rate";
+			};
+			name = Debug;
+		};
+		6A71309F1ECD495000FF404E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 567V7S9DW6;
+				INFOPLIST_FILE = "Xoom Foreign Currency Exchange RateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohit.Xoom-Foreign-Currency-Exchange-RateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xoom Foreign Currency Exchange Rate.app/Xoom Foreign Currency Exchange Rate";
+			};
+			name = Release;
+		};
+		6A7130A11ECD495000FF404E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 567V7S9DW6;
+				INFOPLIST_FILE = "Xoom Foreign Currency Exchange RateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohit.Xoom-Foreign-Currency-Exchange-RateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Xoom Foreign Currency Exchange Rate";
+			};
+			name = Debug;
+		};
+		6A7130A21ECD495000FF404E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 567V7S9DW6;
+				INFOPLIST_FILE = "Xoom Foreign Currency Exchange RateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohit.Xoom-Foreign-Currency-Exchange-RateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Xoom Foreign Currency Exchange Rate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A71306D1ECD494F00FF404E /* Build configuration list for PBXProject "Xoom Foreign Currency Exchange Rate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7130981ECD495000FF404E /* Debug */,
+				6A7130991ECD495000FF404E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A71309A1ECD495000FF404E /* Build configuration list for PBXNativeTarget "Xoom Foreign Currency Exchange Rate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A71309B1ECD495000FF404E /* Debug */,
+				6A71309C1ECD495000FF404E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A71309D1ECD495000FF404E /* Build configuration list for PBXNativeTarget "Xoom Foreign Currency Exchange RateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A71309E1ECD495000FF404E /* Debug */,
+				6A71309F1ECD495000FF404E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A7130A01ECD495000FF404E /* Build configuration list for PBXNativeTarget "Xoom Foreign Currency Exchange RateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7130A11ECD495000FF404E /* Debug */,
+				6A7130A21ECD495000FF404E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A71306A1ECD494F00FF404E /* Project object */;
+}
